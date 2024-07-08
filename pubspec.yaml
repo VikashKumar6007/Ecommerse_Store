@@ -36,12 +36,20 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
+#-----------Local Assets----------------------#
   assets:
-    - assets/fonts
-    - assets/icons
-    - assets/images
-    - assets/logo
+    - assets/fonts/
+    - assets/icons/brands/
+    - assets/images/
+    - assets/logo/
 
+#----------------------Local Fonts------------#
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/avenir_black.ttf
+          weight: 300
+        - asset: assets/fonts/avenir_regular.ttf
+          weight: 200
 
 
