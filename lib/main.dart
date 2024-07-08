@@ -1,3 +1,4 @@
+import 'package:ecommerse_store/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,8 +11,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       themeMode: ThemeMode.system,       // it will select the bi diffault change the color of app
-      theme: ThemeData(),
-      darkTheme: ThemeData(),
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
     );
   }
 }
