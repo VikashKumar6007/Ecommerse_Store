@@ -11,9 +11,7 @@ class AppTheme{
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
     textTheme: TTextTheme.lightTextTheme,
-    elevatedButtonTheme: ElevatedButtonThemeData(
-
-    )
+    elevatedButtonTheme: ElevatedButtonThemeData()
 
 
   );
